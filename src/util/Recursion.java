@@ -1,7 +1,5 @@
 package util;
 
-public class Recursion {
-
     /*
         1! = 1 * 0! = 1.
         2! = 2 * 1! = 2 * 1 = 2.
@@ -15,6 +13,8 @@ public class Recursion {
             Iterative algorithms usually performs better than Recursive algorithms, because of the Stack Over Flow Exception, and it's more effort to push method on stack than iterate.
 
      */
+
+public class Recursion {
 
     public static void main(String[] args) {
 
