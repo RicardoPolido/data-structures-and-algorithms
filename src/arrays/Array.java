@@ -30,6 +30,15 @@ package arrays;
         - If we know the index, the Big O is O of 1 (constant)
         - If we don't know the index, the Big O is O of n (linear)
 
+    Operations x Time Complexity
+
+    Retrieve with index                                 -> O(1) - Constant time
+    Retrieve without index                              -> O(n) - Linear time
+    Add an element to a full array                      -> O(n)
+    Add an element to the end of an array (has space)   -> O(1)
+    Insert or update an element at a specific index     -> O(1)
+    Delete an element by shifting elements              -> O(n)
+
  */
 
 public class Array {
